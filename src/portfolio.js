@@ -127,14 +127,11 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "September 2023 - July 2027",
-      desc: "Developed responsive web pages addressing real-time problems using modern front-end technologies like React, SCSS, and JavaScript, focusing on clean design and user experience. Created a company portfolio website for Azhizen Solutions during an internship, optimizing layouts for mobile and desktop views to enhance usability and showcase innovative solutions.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
+      desc: "Pursuing a rigorous engineering curriculum while spearheading hands-on projects that bridge theoretical knowledge with industry demands. Demonstrated advanced front-end expertise by architecting responsive, high-performance web applications using React, SCSS, and JavaScript. Successfully designed and launched a fully optimized portfolio website for Azhizen Solutions during a professional internship, elevating user engagement through intuitive UI/UX and seamless cross-device functionality. Committed to delivering elegant code solutions that solve complex, real-time challenges and drive innovation."
+    }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -160,35 +157,43 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    // {
+    //   role: "Software Engineer",
+    //   company: "Facebook",
+    //   companylogo: require("./assets/images/facebookLogo.png"),
+    //   date: "June 2018 – Present",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    //   descBullets: [
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    //   ]
+    // },
+    // {
+    //   role: "Front-End Developer",
+    //   company: "Quora",
+    //   companylogo: require("./assets/images/quoraLogo.png"),
+    //   date: "May 2017 – May 2018",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // },
+{
+  role: "Developer Intern",
+  company: "Azhizen Solutions",
+  companylogo: require("./assets/images/airbnbLogo.png"), // You can update this to your company's actual logo
+  date: "Jan 2025 – Present",
+  desc: "Worked as a developer intern where I actively contributed to the development of a real-time project that was later launched as a company product. I was also responsible for designing and building the official company website. The internship provided hands-on experience with live deployments, client requirements, and collaboration with the development team on production-level code.",
+  descBullets: [
+    "Built and launched a real-time web application that became a core product of the company",
+    "Designed and developed Azhizen Solutions’ official company website from scratch",
+    "Collaborated with senior developers and participated in code reviews and daily stand-ups",
+    "Gained practical experience in frontend and backend development using modern tools and frameworks"
+  ]
+}
+
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -202,28 +207,27 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Job.jpg"),
+      projectName: "Job Skill Analyzer from LinkedIn Profiles",
+      projectDesc: "Job Skill Analyzer from LinkedIn Profiles extracts and analyzes skills from LinkedIn profiles to identify strengths and skill gaps, helping users improve their career prospects.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://Job Skill Analyzer.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/AI.jpg"),
+      projectName: "AI-Powered Portfolio Site",
+      projectDesc: "An interactive portfolio with an AI chatbot trained on my experience, enabling dynamic career Q&A. Built with GPT-4 and Web Speech API for voice-driven engagement.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://AI-Powered Portfolio.se/"
         }
       ]
     }
@@ -241,51 +245,42 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "ICT Lernathon'24",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Earned over 20 course certifications in the ICT Learnathon 2024, demonstrating a strong commitment to continuous learning. Developed versatile skills through intensive, hands-on training, enhancing technical expertise for innovative projects.",
+      image: require("./assets/images/ICT.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "GDSC Project '25",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Completed a project under GDSC in 2025, earning a certification that highlights my hands-on experience and dedication to collaborative innovation. Developed practical skills through real-world problem-solving and teamwork, strengthening my technical proficiency.",
+      image: require("./assets/images/GDSC.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "SIH Smart India Hackathon '24",
+      subtitle: "Participated in the SIH Smart India Hackathon 2025 and got selected in the internal hackathon round, showcasing my problem-solving and teamwork skills. Gained valuable experience in developing innovative solutions under tight deadlines, boosting my technical and collaborative abilities.",
+      image: require("./assets/images/SIH.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+         {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
       ]
     }
   ],
