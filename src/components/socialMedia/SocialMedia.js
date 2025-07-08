@@ -1,14 +1,15 @@
 import React from "react";
 import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
+import { socialMediaLinks } from "../../portfolio";
 
-export default function socialMedia() {
+export default function SocialMedia() {
   if (!socialMediaLinks.display) {
     return null;
   }
+
   return (
     <div className="social-media-div">
-      {socialMediaLinks.github ? (
+      {socialMediaLinks.github && (
         <a
           href={socialMediaLinks.github}
           className="icon-button github"
@@ -18,9 +19,9 @@ export default function socialMedia() {
           <i className="fab fa-github"></i>
           <span></span>
         </a>
-      ) : null}
+      )}
 
-      {socialMediaLinks.linkedin ? (
+      {socialMediaLinks.linkedin && (
         <a
           href={socialMediaLinks.linkedin}
           className="icon-button linkedin"
@@ -30,9 +31,9 @@ export default function socialMedia() {
           <i className="fab fa-linkedin-in"></i>
           <span></span>
         </a>
-      ) : null}
+      )}
 
-      {socialMediaLinks.gmail ? (
+      {socialMediaLinks.gmail && (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
           className="icon-button google"
@@ -42,9 +43,9 @@ export default function socialMedia() {
           <i className="fas fa-envelope"></i>
           <span></span>
         </a>
-      ) : null}
+      )}
 
-      {socialMediaLinks.gitlab ? (
+      {socialMediaLinks.gitlab && (
         <a
           href={socialMediaLinks.gitlab}
           className="icon-button gitlab"
@@ -54,21 +55,11 @@ export default function socialMedia() {
           <i className="fab fa-gitlab"></i>
           <span></span>
         </a>
-      ) : null}
+      )}
 
-      {socialMediaLinks.facebook ? (
-        <a
-          href={socialMediaLinks.facebook}
-          className="icon-button facebook"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-facebook-f"></i>
-          <span></span>
-        </a>
-      ) : null}
+      {/* Removed Facebook */}
 
-      {socialMediaLinks.instagram ? (
+      {socialMediaLinks.instagram && (
         <a
           href={socialMediaLinks.instagram}
           className="icon-button instagram"
@@ -78,9 +69,9 @@ export default function socialMedia() {
           <i className="fab fa-instagram"></i>
           <span></span>
         </a>
-      ) : null}
+      )}
 
-      {socialMediaLinks.twitter ? (
+      {socialMediaLinks.twitter && (
         <a
           href={socialMediaLinks.twitter}
           className="icon-button twitter"
@@ -90,9 +81,9 @@ export default function socialMedia() {
           <i className="fab fa-twitter"></i>
           <span></span>
         </a>
-      ) : null}
+      )}
 
-      {socialMediaLinks.medium ? (
+      {socialMediaLinks.medium && (
         <a
           href={socialMediaLinks.medium}
           className="icon-button medium"
@@ -102,9 +93,9 @@ export default function socialMedia() {
           <i className="fab fa-medium"></i>
           <span></span>
         </a>
-      ) : null}
+      )}
 
-      {socialMediaLinks.stackoverflow ? (
+      {socialMediaLinks.stackoverflow && (
         <a
           href={socialMediaLinks.stackoverflow}
           className="icon-button stack-overflow"
@@ -114,9 +105,9 @@ export default function socialMedia() {
           <i className="fab fa-stack-overflow"></i>
           <span></span>
         </a>
-      ) : null}
+      )}
 
-      {socialMediaLinks.kaggle ? (
+      {socialMediaLinks.kaggle && (
         <a
           href={socialMediaLinks.kaggle}
           className="icon-button kaggle"
@@ -126,7 +117,7 @@ export default function socialMedia() {
           <i className="fab fa-kaggle"></i>
           <span></span>
         </a>
-      ) : null}
+      )}
     </div>
   );
 }

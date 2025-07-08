@@ -36,8 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/Karthick250206",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "karthick250206@gmail.com",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+ instagram: "https://www.instagram.com/yourusername",  // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
