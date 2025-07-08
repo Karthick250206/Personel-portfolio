@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "StyleNest",
-  title: "Hi all, I'm Karthick",
+  title: "Hi , I'm Karthick",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -124,7 +124,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "KSR Institute For Engineering & Technology",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/College.jpg"),
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "September 2023 - July 2027",
       desc: "Pursuing a rigorous engineering curriculum while spearheading hands-on projects that bridge theoretical knowledge with industry demands. Demonstrated advanced front-end expertise by architecting responsive, high-performance web applications using React, SCSS, and JavaScript. Successfully designed and launched a fully optimized portfolio website for Azhizen Solutions during a professional internship, elevating user engagement through intuitive UI/UX and seamless cross-device functionality. Committed to delivering elegant code solutions that solve complex, real-time challenges and drive innovation."
@@ -159,25 +159,7 @@ const techStack = {
 const workExperiences = {
   display: true, // Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Software Engineer",
-    //   company: "Facebook",
-    //   companylogo: require("./assets/images/facebookLogo.png"),
-    //   date: "June 2018 – Present",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //   descBullets: [
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-    //   ]
-    // },
-    // {
-    //   role: "Front-End Developer",
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.png"),
-    //   date: "May 2017 – May 2018",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
-{
+    {
   role: "Developer Intern",
   company: "Azhizen Solutions",
   companylogo: require("./assets/images/airbnbLogo.png"), // You can update this to your company's actual logo
@@ -189,7 +171,29 @@ const workExperiences = {
     "Collaborated with senior developers and participated in code reviews and daily stand-ups",
     "Gained practical experience in frontend and backend development using modern tools and frameworks"
   ]
-}
+}, 
+    {
+       role: "Full-Stack Development Intern",
+       company: "Accent-Techno-Soft",
+       companylogo: require("./assets/images/comp2.jpg"),
+       date: "June 2018 – Present",
+      desc: "Completed a 15-day internship at Accent Techno Soft, Coimbatore, where I was introduced to full-stack web development concepts. The program focused on building a strong foundation in both frontend and backend technologies through guided learning, practical exercises, and mentorship sessions. Although I didn't work on a live project, the internship gave me valuable exposure to the software development lifecycle and modern development tools.",
+descBullets: [
+  "Underwent hands-on training in HTML, CSS, JavaScript, and React for frontend development",
+  "Explored backend fundamentals using Node.js, Express.js, and MongoDB",
+  "Learned how REST APIs are built and integrated into full-stack applications",
+  "Received mentorship from experienced developers and participated in interactive coding sessions",
+  "Gained insights into deployment processes and version control using Git and GitHub"
+       ]
+     },
+    // {
+    //   role: "Front-End Developer",
+    //   company: "Quora",
+    //   companylogo: require("./assets/images/quoraLogo.png"),
+    //   date: "May 2017 – May 2018",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // },
+
 
   ]
 };
