@@ -162,7 +162,7 @@ const workExperiences = {
   role: "Developer Intern",
   company: "Azhizen Solutions",
   companylogo: require("./assets/images/airbnbLogo.png"), // You can update this to your company's actual logo
-  date: "Jan 2025 – Present",
+  date: "Jan 2025 – July 2025",
   desc: "Worked as a developer intern where I actively contributed to the development of a real-time project that was later launched as a company product. I was also responsible for designing and building the official company website. The internship provided hands-on experience with live deployments, client requirements, and collaboration with the development team on production-level code.",
   descBullets: [
     "Built and launched a real-time web application that became a core product of the company",
@@ -175,7 +175,7 @@ const workExperiences = {
        role: "Full-Stack Development Intern",
        company: "Accent-Techno-Soft",
        companylogo: require("./assets/images/comp2.jpg"),
-       date: "June 2018 – Present",
+       date: "June 2018 – July 2025",
       desc: "Completed a 15-day internship at Accent Techno Soft, Coimbatore, where I was introduced to full-stack web development concepts. The program focused on building a strong foundation in both frontend and backend technologies through guided learning, practical exercises, and mentorship sessions. Although I didn't work on a live project, the internship gave me valuable exposure to the software development lifecycle and modern development tools.",
 descBullets: [
   "Underwent hands-on training in HTML, CSS, JavaScript, and React for frontend development",
